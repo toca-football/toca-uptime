@@ -25,7 +25,7 @@ status-website:
   cname: status.toca.social
   logoUrl: https://toca.social/favicon.png
   name: TOCA Social
-  introTitle: "Uptime status dashboard for TOCA Socialservices."
+  introTitle: "Uptime status dashboard for TOCA Social."
   introMessage: TOCA API apps and services are used as part of https://toca.social.
   navbar:
     - title: Status
