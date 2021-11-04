@@ -12,7 +12,9 @@ sites:
     url: https://photobooth.toca.social
   - name: Bookings API
     url: https://booking.api.toca.social/ping
-  - name: Session API
+  - name: Contact API
+    url: https://contact.api.toca.social/ping
+  - name: Payment API
     url: https://payment.api.toca.social/ping
   - name: Session API
     url: https://session.api.toca.social/ping
@@ -22,8 +24,8 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.toca.social
   logoUrl: https://toca.social/favicon.png
-  name: TOCA Status
-  introTitle: "Uptime status dashboard for TOCA services. Including dev, qa, staging and prodiction."
+  name: TOCA Social
+  introTitle: "Uptime status dashboard for TOCA Socialservices."
   introMessage: TOCA API apps and services are used as part of https://toca.social.
   navbar:
     - title: Status
