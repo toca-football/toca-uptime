@@ -4,6 +4,12 @@ repo: uptime
 sites:
   - name: TOCA Social
     url: https://www.toca.social
+  - name: Reception
+    url: https://horae.toca.social
+  - name: Kiosk
+    url: https://kiosk.toca.social
+  - name: Photobooth
+    url: https://photobooth.toca.social
   - name: Bookings API
     url: https://booking.api.toca.social/ping
   - name: Session API
