@@ -4,16 +4,21 @@ repo: uptime
 sites:
   - name: TOCA Social
     url: https://www.toca.social
+  - name: Bookings API
+    url: https://booking.api.toca.social/ping
+  - name: Session API
+    url: https://payment.api.toca.social/ping
+  - name: Session API
+    url: https://session.api.toca.social/ping
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.toca.social
-  #baseUrl: /uptime
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  logoUrl: https://toca.social/favicon.png
+  name: TOCA Status
+  introTitle: "Uptime status dashboard for TOCA services. Including dev, qa, staging and prodiction."
+  introMessage: TOCA API apps and services are used as part of https://toca.social.
   navbar:
     - title: Status
       href: /
