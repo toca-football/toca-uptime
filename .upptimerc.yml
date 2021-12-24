@@ -4,6 +4,10 @@ repo: uptime
 sites:
   - name: Website
     url: https://www.toca.social
+    expectedStatusCodes:
+      - 200
+      - 403
+      - 404
   - name: Reception
     url: https://horae.toca.social
   - name: Kiosk
